@@ -64,3 +64,9 @@ Launch the graphical micro-frontend server to execute live text queries and visu
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## 👨‍💻 Author
+
+* **Karan B.C.** - [GitHub Profile](https://github.com/Karan-kb) | [💼 LinkedIn Profile](https://www.linkedin.com/in/karan-b-c-2162a81b8/)
