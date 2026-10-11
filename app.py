@@ -32,4 +32,4 @@ try:
             
         st.caption(f"Inference pipeline execution completed in {(end_time - start_time)*1000:.2f} milliseconds.")
 except Exception as e:
-    st.error(f"System execution environment trap: {e}")
+    st.error(f"System Execution Environment trap: {e}")
