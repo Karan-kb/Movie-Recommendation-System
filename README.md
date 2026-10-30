@@ -43,17 +43,6 @@ $$\text{Similarity}(A, B) = \cos(\theta) = \frac{A \cdot B}{\Vert{}A\Vert{} \Ver
 
 ---
 
-## 🛠️ Repository Directory Layout
-
-The codebase separates data processing, vector math logic, and the user interface layer into distinct script paths:
-
-*   📁 **`data/`** — Raw structured source files (`tmdb_5000_movies.csv`, `tmdb_5000_credits.csv`).
-*   📁 **`src/`** — Main data processing scripts:
-    *   `pipeline.py` — Ingests source files, parses text formats, maps features, and handles NLTK word stemming.
-    *   `matrix_compute.py` — Builds word frequency matrices, calculates cosine overlap, and exports results as binary `pickle` objects.
-*   📄 **`app.py`** — Main web server entry point. A lightweight interactive layout utilizing Streamlit to show instant content recommendations without page reloads.
-
----
 
 ## 📊 Process Complexity & Performance Roadmap
 
@@ -80,7 +69,7 @@ The codebase separates data processing, vector math logic, and the user interfac
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com
+git clone https://github.com/Karan-kb/Movie-Recommendation-System.git
 cd Movie-Recommendation-System
 ```
 
